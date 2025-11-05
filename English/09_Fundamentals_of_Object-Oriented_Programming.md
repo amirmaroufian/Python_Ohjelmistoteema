@@ -82,7 +82,7 @@ A function defined this way is interpreted automatically as the initializer when
 time a new object is created. There is no return statement at the end of an initializer.
 
 Inside the initializer in the example there are two assignment statements were values are given to the properties of the new
-object. The properties of the new object are referenced by the reserved word `self` which is followed by a period and the name
+object. The properties of the new object are referenced by `self` which is followed by a period and the name
 of the property. Typically, the parameters of the initializer are used to assign values to the properties of the new object.
 For example, the statement `self.name = name` assigs the value of the name parameter to the value of the name property.
 
@@ -168,3 +168,4 @@ The program produces the following output:
 ```monospace
 2 dogs have been created so far.
 ```
+
